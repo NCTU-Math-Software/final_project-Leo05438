@@ -39,10 +39,10 @@ w a s d:移動玩家
 ---
 
 ### 3. 流程
-1.如果敵人數量少於5個，增加敵人直到有五個敵人
-2.如果敵人的子彈少於5個，增加子彈直到有五個子彈
-3.draw()
-4.bulletsMove()、enemiesMove()、enemyBulletsMove()
-5.如果 quit~=1且live>0 重新回到 1.
-6.輸出分數 
-7.結束程式
+1. 如果敵人數量少於5個，增加敵人直到有五個敵人
+2. 如果敵人的子彈少於5個，增加子彈直到有五個子彈
+3. draw()
+4. bulletsMove()、enemiesMove()、enemyBulletsMove()
+5. 如果 quit~=1且live>0 重新回到 1.
+6. 輸出分數 
+7. 結束程式

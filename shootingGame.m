@@ -1,4 +1,6 @@
 function shootingGame()
+    %use q to quit
+    %use w,a,s and d to move
     x_max=10;
     y_max=10;
     player=[5 1];
@@ -148,49 +150,49 @@ function shootingGame()
         switch event.Character
             case 'q'
                 quit=1;
-            case 30%up
+            case 30 %up
                 if(player(2)<y_max)
                     player(2)=player(2)+0.25;
                 else
                     player(2)=y_max;
                 end
-            case 31%down
+            case 31 %down
                 if(player(2)>0)
                     player(2)=player(2)-0.25;
                 else
                     player(2)=0;
                 end
-            case 29%right
+            case 29 %right
                 if(player(1)<x_max)
                     player(1)=player(1)+0.25;
                 else
                     player(1)=x_max;
                 end
-            case 28%left
+            case 28 %left
                 if(player(1)>0)
                     player(1)=player(1)-0.25;
                 else
                     player(1)=0;
                 end
-            case 'w'%up
+            case 'w' %up
                 if(player(2)<y_max)
                     player(2)=player(2)+0.25;
                 else
                     player(2)=y_max;
                 end
-            case 's'%down
+            case 's' %down
                 if(player(2)>0)
                     player(2)=player(2)-0.25;
                 else
                     player(2)=0;
                 end
-            case 'd'%right
+            case 'd' %right
                 if(player(1)<x_max)
                     player(1)=player(1)+0.25;
                 else
                     player(1)=x_max;
                 end
-            case 'a'%left
+            case 'a' %left
                 if(player(1)>0)
                     player(1)=player(1)-0.25;
                 else
